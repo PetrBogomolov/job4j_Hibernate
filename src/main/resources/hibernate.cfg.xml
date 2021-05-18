@@ -22,5 +22,7 @@
         <mapping class="ru.job4j.hibernate.mapping.onetomany.MarkAuto" />
         <mapping class="ru.job4j.hibernate.mapping.manytomany.Author" />
         <mapping class="ru.job4j.hibernate.mapping.manytomany.Book" />
+        <mapping class="ru.job4j.hibernate.mapping.exception.Model" />
+        <mapping class="ru.job4j.hibernate.mapping.exception.Mark" />
     </session-factory>
 </hibernate-configuration>

@@ -24,5 +24,8 @@
         <mapping class="ru.job4j.hibernate.mapping.manytomany.Book" />
         <mapping class="ru.job4j.hibernate.mapping.exception.Model" />
         <mapping class="ru.job4j.hibernate.mapping.exception.Mark" />
+        <mapping class="ru.job4j.hibernate.hql.selectfetch.Candidacy" />
+        <mapping class="ru.job4j.hibernate.hql.selectfetch.Vacancy" />
+        <mapping class="ru.job4j.hibernate.hql.selectfetch.DBVacancy" />
     </session-factory>
 </hibernate-configuration>

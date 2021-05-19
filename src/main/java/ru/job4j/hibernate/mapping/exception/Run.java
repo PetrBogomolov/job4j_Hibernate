@@ -15,7 +15,7 @@ public class Run {
         final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
                 .configure().build();
         final SessionFactory sf = new MetadataSources(registry).buildMetadata().buildSessionFactory();
-        try (Session session = sf.openSession();) {
+        try (Session session = sf.openSession()) {
             session.beginTransaction();
             Mark toyota = new Mark("toyota");
             session.save(toyota);
